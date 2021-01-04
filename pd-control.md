@@ -329,8 +329,7 @@ Replica 调度的开销较大，所以这个值不宜调得太大。
 >> config set replica-schedule-limit 4
 ```
 
-`merge-schedule-limit` 控制同时进行的 Region Merge 调度的任务，设置为 0 则关闭 Region Merge。
-Merge 调度的开销较大，所以这个值不宜调得过大。
+`merge-schedule-limit` 控制同时进行的 Region Merge 调度的任务，设置为 0 则关闭 Region Merge。Merge 调度的开销较大，所以这个值不宜调得过大。
 
 最多同时进行 16 个 merge 调度：
 
